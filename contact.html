@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BlogNest</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="stylesheet" href="/css/media.css" />
+    <link rel="stylesheet" href="/css/utility.css" />
+    <link rel="icon" type="icon" href="./assets/Site-logo.png" />
+  </head>
+  <body>
+    <nav class="navigation">
+      <div class="nav-left">
+        <a href="/home.html">
+          <h1 class="Logo">Blog<span>Nest</span></h1>
+        </a>
+      </div>
+
+      <div class="nav-right">
+        <ul class="nav-links">
+          <li><a href="home.html">Home</a></li>
+          <li>
+            <a href="categories.html"
+              >Categories <i class="fas fa-caret-down"></i>
+            </a>
+          </li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="sign-in">
+        <a href="Sign-in.html">
+          <button class="signin btn">SIGN IN</button>
+        </a>
+      </div>
+    </nav>
+
+    <section class="main-contact" id="contacts">
+      <div class="contact-left">
+        <h1>Get in Touch</h1>
+        <p>Fill out the form below to send us a message.</p>
+        <form id="contact-form">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" placeholder="Your Name" />
+
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Your Email"
+            required
+          />
+
+          <label for="message">Message:</label>
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Your Feedback..."
+            required
+          ></textarea>
+
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+
+      <div class="contact-right">
+        <img src="assets/contact.png" alt="Contact us" />
+      </div>
+    </section>
+
+    <section class="foot-c">
+      <footer class="footer">
+        <div class="foot-left">
+          <ul class="foot-links">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="categories.html">Categories</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <p>Copyright &#169; 2024 Manthan Pathak All Right Reserved.</p>
+      </footer>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
